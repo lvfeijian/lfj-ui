@@ -2,13 +2,20 @@
   "name": "lfj-ui",
   "private": false,
   "description": "吕飞剑的组件库",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author":"lfj",
   "type": "module",
-  "keywords":["lfj-ui","lfj"],
+  "keywords":["lfj-ui","lfj","vue","component"],
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lvfeijian/lfj-ui.git"
+  },
+  "bug":{
+    "url":"https://github.com/lvfeijian/lfj-ui/issues"
+  },
   "main":"./dist/lfj-ui.umd.cjs",
   "module": "./dist/lfj-ui.js",
   "scripts": {
