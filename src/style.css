@@ -61,22 +61,21 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-
 .flex {
-	display: flex;
+  display: flex;
 }
 .center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .vertical-center {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .horizontal-center {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }

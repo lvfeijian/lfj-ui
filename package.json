@@ -3,9 +3,14 @@
   "private": false,
   "description": "吕飞剑的组件库",
   "version": "0.0.4",
-  "author":"lfj",
+  "author": "lfj",
   "type": "module",
-  "keywords":["lfj-ui","lfj","vue","component"],
+  "keywords": [
+    "lfj-ui",
+    "lfj",
+    "vue",
+    "component"
+  ],
   "files": [
     "dist"
   ],
@@ -13,15 +18,16 @@
     "type": "git",
     "url": "git@github.com:lvfeijian/lfj-ui.git"
   },
-  "bug":{
-    "url":"https://github.com/lvfeijian/lfj-ui/issues"
+  "bug": {
+    "url": "https://github.com/lvfeijian/lfj-ui/issues"
   },
-  "main":"./dist/lfj-ui.umd.cjs",
+  "main": "./dist/lfj-ui.umd.cjs",
   "module": "./dist/lfj-ui.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "vue": "^3.3.4",

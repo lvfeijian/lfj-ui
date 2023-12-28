@@ -1,24 +1,24 @@
 <template>
   <!-- scss颜色函数 background: lighten -->
-    <button
-      class="lfj-button center"
-      :disabled="disabled"
-      :type="nativeType"
-      :class="[`lfj-button--${props.type}`, { 'is-plain': plain }]"
-    >
-      <slot></slot>
-    </button>
+  <button
+    class="lfj-button center"
+    :disabled="disabled"
+    :type="nativeType"
+    :class="[`lfj-button--${props.type}`, { 'is-plain': plain }]"
+  >
+    <slot></slot>
+  </button>
 </template>
 
 <script setup lang="ts">
-import { buttonTypes } from './button'
+import { buttonTypes } from "./button";
 defineOptions({
   name: "LvButton"
-})
+});
 const props = defineProps({
   type: {
     type: String,
-    validator: (val:string) => buttonTypes.includes(val),
+    validator: (val: string) => buttonTypes.includes(val),
     default: "default"
   },
   nativeType: {
@@ -26,8 +26,7 @@ const props = defineProps({
     default: "button"
   },
   disabled: Boolean
-})
-
+});
 </script>
 
 <style scoped lang="scss">
