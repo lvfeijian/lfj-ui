@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { buttonTypes } from './button'
 defineOptions({
-  name: "ElButton"
+  name: "LvButton"
 })
 const props = defineProps({
   type: {

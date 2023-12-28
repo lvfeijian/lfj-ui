@@ -1,5 +1,5 @@
-import ElButton from './button.vue'
-ElButton.install = (app)=>{
-  app.component(ElButton.name,ElButton)
+import LvButton from './button.vue'
+LvButton.install = (app)=>{
+  app.component(LvButton.name,LvButton)
 }
-export default ElButton
+export default LvButton

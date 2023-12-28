@@ -1,12 +1,9 @@
 <template>
   <div>
     123111
-    <!-- <ElButton type="primary">123</ElButton> -->
-    <ElButton>123</ElButton>
+    <LvButton type="primary">123</LvButton>
+    <LvButton>123</LvButton>
   </div>
 </template>
-<script lang="ts" setup>
-
-</script>
-<style scoped>
-</style>
+<script lang="ts" setup></script>
+<style scoped></style>
