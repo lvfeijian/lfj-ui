@@ -1,5 +1,5 @@
-import LvButton from "./button.vue";
-LvButton.install = (app) => {
-  app.component(LvButton.name, LvButton);
+import LvButton from "./src/button.vue";
+LvButton.install = (app:any) => {
+  app.use(LvButton.name, LvButton);
 };
 export default LvButton;

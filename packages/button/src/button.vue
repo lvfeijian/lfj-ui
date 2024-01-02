@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { buttonTypes } from "./button";
+import { buttonTypes } from "../src/button";
 defineOptions({
   name: "LvButton"
 });
