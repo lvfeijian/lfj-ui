@@ -4,7 +4,10 @@
     class="lfj-button center"
     :disabled="disabled"
     :type="nativeType"
-    :class="[`lfj-button--${props.type}`, { 'is-plain': plain }]"
+    :class="[
+      `lfj-button--${props.type}`,
+      { 'is-plain': plain }
+    ]"
   >
     <slot></slot>
   </button>
@@ -39,8 +42,9 @@ const props = defineProps({
   border-radius: 4px;
   cursor: pointer;
 }
+// @each 指令的格式是 $var in <list>
 @each $type,
-  $color in (primary: #409eff, success: #67c23a, warning: #909399, danger: #e6a23c, info: #f56c6c)
+  $color in (primary: #409eff, success: #67c23a, warning: #909399, danger: #e6a23c, info: #f56c6c,fy-primary:#8B7A9B)
 {
   .lfj-button--#{$type} {
     $color: $color;

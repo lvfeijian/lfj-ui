@@ -4,7 +4,7 @@ const components = [
 ];
 const install = function (app: any) {
   components.forEach((component) => {
-    app.component(component.name, component);
+    app.use(component);
   });
 };
 /* istanbul ignore if */
