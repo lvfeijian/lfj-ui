@@ -2,7 +2,7 @@
   "name": "lfj-ui",
   "private": false,
   "description": "吕飞剑的组件库",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "lfj",
   "type": "module",
   "keywords": [
