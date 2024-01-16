@@ -1,7 +1,8 @@
 <template>
   <div>
-    <LvButton type="fy-primary" disabled>123</LvButton>
+    <LvButton type="primary" >123</LvButton>
     <LvButton>123</LvButton>
+    <LvUploader></LvUploader>
   </div>
 </template>
 
