@@ -15,6 +15,6 @@ if (typeof window !== "undefined" && (window as any).Vue) {
 }
 export { Button, Uploader };
 export default {
-  version: '0.0.4',
+  version: '0.0.5',
   install
 };
