@@ -2,11 +2,13 @@ import Button from "./button/index.js";
 import Uploader from "./uploader/index.js";
 import Row from "./row/index.js";
 import Col from "./col/index.js";
+import Image from "./image/index.js";
 const components = [
   Button,
   Uploader,
   Row,
-  Col
+  Col,
+  Image
 ];
 const install = function (app: any) {
   components.forEach((component) => {

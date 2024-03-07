@@ -36,6 +36,7 @@ const props = defineProps({
   },
   disabled: Boolean
 });
+
 </script>
 
 <style scoped lang="scss">

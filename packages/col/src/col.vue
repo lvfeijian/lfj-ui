@@ -21,6 +21,7 @@ defineOptions({
 const props = withDefaults(defineProps<Props>(),{
   span: 24
 })
+
 const gutter = inject('gutter')
 console.log(gutter, 'gutter');
 const style = computed(() => {
