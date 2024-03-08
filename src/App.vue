@@ -28,7 +28,7 @@
       </LvImage>
     </div>
     <div class="lazy">
-      <LvImage v-for="url in urls" :src="url" :key="url" lazy></LvImage>
+      <LvImage class="lazy-img" v-for="url in urls" :src="url" :key="url" lazy></LvImage>
     </div>
   </div>
 </template>
@@ -58,7 +58,11 @@ function error(e:Event){
   background: #d3dce6;
 }
 .lazy{
+  width: 800px;
   height: 400px;
   overflow-y: scroll;
 }
+.lazy-img{
+    min-height: 200px;
+  }
 </style>
